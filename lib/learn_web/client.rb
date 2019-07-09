@@ -13,7 +13,7 @@ module LearnWeb
   class Client
     attr_reader :token, :conn, :silent_output
 
-    LEARN_URL = ENV.fetch('LEARN_CO_URL', 'https://learn.co').freeze
+    LEARN_URL = ENV.fetch('LEARN_CO_URL', 'https://www-ucb-mids-lms-stg.2u.com/learn').freeze
     API_ROOT  = '/api/v1'
 
     include LearnWeb::Client::Request
