@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'learn_web/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "learn-web"
+  spec.name          = "learn-web-2u"
   spec.version       = LearnWeb::VERSION
   spec.authors       = ["Flatiron School"]
   spec.email         = ["learn@flatironschool.com"]
